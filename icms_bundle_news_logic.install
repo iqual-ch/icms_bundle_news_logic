@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Update hooks for ICMS News bundle.
+ */
+
+use Drupal\Core\StringTranslation\TranslatableMarkup;
+
+/**
+ * Implements hook_install().
+ */
+function icms_bundle_news_logic_install() {
+  module_set_weight('icms_bundle_news_logic', 50);
+}
